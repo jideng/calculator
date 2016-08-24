@@ -113,6 +113,7 @@ typedef enum opr Operator;
     currentOpr = none;
     currentValue = 0;
     
+    self.myLabel.text = @"0";
 }
 
 - (void)didReceiveMemoryWarning {
