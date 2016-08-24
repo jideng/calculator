@@ -13,6 +13,7 @@
 		CEE6C0241D6D208400AC548F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE6C0221D6D208400AC548F /* Main.storyboard */; };
 		CEE6C0261D6D208400AC548F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE6C0251D6D208400AC548F /* Assets.xcassets */; };
 		CEE6C0291D6D208400AC548F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE6C0271D6D208400AC548F /* LaunchScreen.storyboard */; };
+		CEE6C0321D6D2C3400AC548F /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE6C0311D6D2C3400AC548F /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		CEE6C0251D6D208400AC548F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE6C0281D6D208400AC548F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE6C02A1D6D208400AC548F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE6C0301D6D2C3400AC548F /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		CEE6C0311D6D2C3400AC548F /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				CEE6C01C1D6D208400AC548F /* AppDelegate.h */,
 				CEE6C01D1D6D208400AC548F /* AppDelegate.m */,
+				CEE6C0301D6D2C3400AC548F /* Calculator.h */,
+				CEE6C0311D6D2C3400AC548F /* Calculator.m */,
 				CEE6C01F1D6D208400AC548F /* ViewController.h */,
 				CEE6C0201D6D208400AC548F /* ViewController.m */,
 				CEE6C0221D6D208400AC548F /* Main.storyboard */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE6C0211D6D208400AC548F /* ViewController.m in Sources */,
+				CEE6C0321D6D2C3400AC548F /* Calculator.m in Sources */,
 				CEE6C01E1D6D208400AC548F /* AppDelegate.m in Sources */,
 				CEE6C01B1D6D208400AC548F /* main.m in Sources */,
 			);
